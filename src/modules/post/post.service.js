@@ -15,7 +15,7 @@ export const PostService = {
 
       if (file) {
         // imageUrl = `/uploads/posts/${file.filename}`;
-        const baseUrl = env.BASE_URL || 'http://localhost:5000';
+        const baseUrl = 'https://buddy-back.onrender.com';
         imageUrl = `${baseUrl}/uploads/posts/${file.filename}`;
       }
 
